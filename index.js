@@ -6,7 +6,7 @@ var path = require('path');
 
 var conf = yargs
     .help('help')
-    .version('0.0.1', 'v')
+    .version('0.0.3', 'v')
     .alias('v', 'version')
     .showHelpOnFail(true)
     .usage('Upload / publish a file to artifactory.\nUsage: $0')
