@@ -2,6 +2,11 @@
 
 > simple command line tool for publishing to artifactory
 
+## Installation
+```
+sudo npm install -g artifactory-push
+```
+
 ## Options
 ```
 Options:
@@ -13,4 +18,9 @@ Options:
   -u, --user      Artifactory user name
   -p, --password  Artifactory user password
   --proxy         A proxy url to use for sending http requests
+```
+
+## Example
+```
+artifactory-push -f awesome.pkg -t https://artifactory.example.com/artifactory/my-repo/test.pkg -u john -p swordfish
 ```
