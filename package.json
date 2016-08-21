@@ -25,6 +25,6 @@
   "homepage": "https://github.com/beevelop/artifactory-push#readme",
   "dependencies": {
     "artifactory-publisher": "^1.0.0",
-    "yargs": "^4.8.1"
+    "yargs": "^5.0.0"
   }
 }
